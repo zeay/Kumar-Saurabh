@@ -1,6 +1,17 @@
 #!/usr/bin/env node
+const pkjJSON = require('./package.json');
+const welcome = require('cli-welcome');
 
-console.clear();
+welcome({
+    title: pkjJSON.name,
+    tagLine: 'Howdy, nice to meet ya!',
+    description: pkjJSON.description,
+    version: pkjJSON.version,
+    bgColor: '#FADC00',
+    color: '#000000',
+    bold: true,
+    clear: true
+});
 
 console.log(`
 Kumar Saurabh 

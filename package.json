@@ -19,5 +19,8 @@
     "url": "https://github.com/zeay/Kumar-Saurabh/issues"
   },
   "homepage": "https://github.com/zeay/Kumar-Saurabh#readme",
-  "description": ""
+  "description": "Get to know more about kumar saurabh via npx `npx kumarsaurabh`",
+  "dependencies": {
+    "cli-welcome": "^2.2.2"
+  }
 }
