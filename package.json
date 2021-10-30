@@ -12,7 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/zeay/Kumar-Saurabh.git"
   },
-  "keywords": [],
+  "keywords": [
+      "npx kumarsaurabh",
+      "To Run `zeay`",
+      "zeay"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
