@@ -1,5 +1,5 @@
 # `npx kumarsaurabh`
->Get to know more about Kumar saurabh through command line 
+>Get to know more about Kumar Saurabh through command line 
 with Node.js
 
 ## Usage
@@ -7,6 +7,6 @@ with Node.js
 To use this cli run the following command:
 
 ```sh
-npx kumarsaurabh ## to install
-zeay ## to run
+npx kumarsaurabh # to install
+zeay # to run
 ```
