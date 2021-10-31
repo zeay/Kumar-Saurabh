@@ -25,6 +25,7 @@
   "homepage": "https://github.com/zeay/Kumar-Saurabh#readme",
   "description": "Get to know more about kumar saurabh via npx `npx kumarsaurabh`",
   "dependencies": {
+    "chalk": "^4.1.2",
     "cli-welcome": "^2.2.2"
   }
 }

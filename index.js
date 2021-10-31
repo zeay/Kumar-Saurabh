@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 const pkjJSON = require('./package.json');
 const welcome = require('cli-welcome');
+const chalk = require('chalk');
+const log = console.log;
 
 welcome({
     title: pkjJSON.name,
@@ -13,15 +15,17 @@ welcome({
     clear: true
 });
 
-console.log(`
-Kumar Saurabh 
+log(`
+${chalk.bgBlue.bold(` Kumar Saurabh `)} 
 
+${chalk.italic(`
 Senior Software Engineer having more than 4+ years Experience
 with Javascript and related technologine like Node.js and various 
 frontend framework like react, Ext.js, Jquery.
 Always willing to learn new things blockchain entusiast currently 
-pursuing master from LJMU UK.
+pursuing master from LJMU UK.`)}
 
-:book: Github: https://github.com/zeay
+${chalk.hex(`6cc644`).bold.inverse(` Github `)} ${chalk.dim('https://github.com/zeay')}
+${chalk.hex(`405de6`).bold.inverse(` Insta `)}  ${chalk.dim('https://instagram.com/zeayycool')}
 
 `);
